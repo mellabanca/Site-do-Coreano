@@ -1,11 +1,59 @@
-* {
-    border: solid
+*{
+    background-color: #6495ed;
+    font-family: "Brush Script MT", cursive;
 }
 
 h1 {
-    color: aquamarine;
+    color: #0c9c6c;
+    background-color: #b4f3f3;
+    padding: 50;
+}
+h2{
+border-style: inset;
+background-color: #b4f3f3;
+}
+
+a{
+font-size: larger;
+}
+
+a:link{
+    color:#0c9c6c;
+}
+
+a:visited{
+    color:#0c9c6c;
+}
+
+.pastas a{
+    background-color: #b4f3f3;
 }
 
 .cabecalho {
+    background-color:#b4f3f3; 
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid;
+    border-radius: 100px;
+    padding: 50;
+}
+.pastas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #b4f3f3;
+}
+.playstore{
+    background-color: #6495ed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
+
+}
+.fundopk{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
